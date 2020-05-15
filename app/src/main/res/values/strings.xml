@@ -1,0 +1,20 @@
+<resources>
+<string name="app_name">RAAM APPS</string>
+<string name="profile">Profile</string>
+<string name="button">Button</string>
+<string name="namaku">PRAYOGA MAULANA P.S</string>
+<string name="deskripsidiri">Prayoga maulana putra sugiharto adalah nama lengkap saya, lahir pada 19 Agustus 1999
+                                di majalengka, saya tumbuh dan besar di kota Depok </string>
+<string name="open">Open</string>
+<string name="close">Close</string>
+<string-array name="mydailyactivity">
+    <item>Bangun tidur</item>
+    <item>sarapan</item>
+    <item>youtube-an</item>
+    <item>Mandi</item>
+    <item>Belajar coding</item>
+</string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+<string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

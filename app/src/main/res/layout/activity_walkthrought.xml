@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwalkthrought1"
+    tools:context=".walkthrought">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/screen_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp" >
+
+    </androidx.viewpager.widget.ViewPager>
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tab_indicator"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dimen138"
+        android:layout_marginBottom="36dp"
+        app:tabBackground="@drawable/indicator_selector"
+        app:tabIndicatorColor="#00FFFFFF">
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/dimen34"
+        android:layout_marginBottom="@dimen/dimen36"
+        android:layout_toRightOf="@+id/tab_indicator"
+        android:background="@drawable/bgbutton"
+        android:text="next"
+        android:textColor="@color/bgsplashscreen" />
+
+    <Button
+        android:visibility="invisible"
+        android:textColor="@color/bgsplashscreen"
+        android:background="@drawable/btn_gradient_style"
+        android:id="@+id/btn_get_started"
+        android:layout_width="147dp"
+        android:layout_height="63dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="-273dp"
+        android:layout_marginBottom="@dimen/dimen120"
+        android:text="Get Started" />
+
+</RelativeLayout>

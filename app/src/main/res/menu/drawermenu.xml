@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/homeid" android:title="Home"  android:icon="@drawable/home"/>
+    <item android:id="@+id/dailyActivity" android:title="Daily Activity" android:icon="@drawable/dailyactivity"/>
+    <item android:id="@+id/gallery" android:title="Gallery" android:icon="@drawable/gallery"/>
+    <item android:id="@+id/musicFavorite" android:title="Music Favorite" android:icon="@drawable/music"/>
+    <item android:id="@+id/profile" android:title="Profile" android:icon="@drawable/profile"/>
+    <item android:id="@+id/logout" android:title="logout" android:icon="@drawable/logout"/>
+</menu>
